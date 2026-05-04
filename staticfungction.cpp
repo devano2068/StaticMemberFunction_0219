@@ -1,27 +1,4 @@
 
-    private:
-        static int nim;
-    public:
-        int id;
-        string nama;
-
-        static int getNim() {
-            return nim;
-        }
-
-        Mahasiswa(string pnama) :nama(pnama) {
-            setID();
-        }
-
-        void setID();
-        void printAll();
-
-        //pembuatan static function
-        static void setNim(int pnim) {
-            nim = pnim;
-        }
-};
-
 int Mahasiswa::nim = 0;
 
 //pendefinisial prosedur - prosedur diluar class
